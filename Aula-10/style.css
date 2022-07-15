@@ -1,0 +1,83 @@
+body {
+  background-image: url('https://aventurasnahistoria.uol.com.br/media/_versions/arqueologia/pergaminhodndn_widelg.jpg');
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+section {
+  padding: 10px;
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 1px solid black;
+  box-shadow: 5px 5px 13px -1px #000000;
+}
+
+header {
+  background-image: url('https://images.vexels.com/media/users/3/197694/raw/02c6d99d0c01203249614f41728a6b9d-pacote-de-dados-geometricos-rpg.jpg');
+  background-size: contain;
+  border-radius: 5px
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+  height: 150px;
+  border: 8px solid white;
+  transform: translateY(-50px);
+}
+
+.div {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: lightgray;
+  font-family: 'Orbitron', sans-serif;
+  border: 1px solid black;
+}
+
+.sub {
+  width: 100%;
+}
+
+.sub1 {
+  margin: 10px;
+  padding: 10px;
+  background-color: lightgray;
+  font-family: 'Dancing Script', cursive;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.sub2 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 300%;
+  display: inline-block;
+  text-align: center;
+  transform: rotate(-45deg);
+  width: 25%;
+  float: right;
+  margin-right: 10%;
+}
+
+.alura-logo {
+    background-color: black;
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+    border-radius: 100%;
+  }
+
+.page-logo {
+    width: 200px;
+  }

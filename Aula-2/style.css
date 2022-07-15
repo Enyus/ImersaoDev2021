@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 854px;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-2-calculadora-certa.png');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    text-align: center;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .calculadora {
+    width: 264px;
+    height:360px;
+    background-image: url('https://super.abril.com.br/wp-content/uploads/2019/09/si_pretomit.png?w=680&h=453&crop=1');
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  h2 {
+    color: #ffffff;
+    font-size:16px;
+    font-weight:bold;
+    text-align:center;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+
+.default-button {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.valor {
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.valorcalculado {
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #ffd700;
+  margin-top: 200px;
+}

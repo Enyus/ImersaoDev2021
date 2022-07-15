@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>
+        Imersão Dev - Aula 05
+    </title>
+</head>
+
+<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+            alt="">  
+  
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            NerdFlix
+        </h1>
+        
+        <p class="page-subtitle">
+            Qual seu filme NERD favorito?
+        </p>
+        <div class="form-wrapper">
+          <p class="page-subtitle">
+            Nome do Filme: 
+          <input type="text" id="filme" name="filme" placeholder="Insira o nome do filme">
+          </p>
+          <p class="page-subtitle">
+          Poster do Filme: 
+            <input type="text" id="poster" name="poster" placeholder="Insira endereço de imagem">
+          </p>
+          </p>
+          <p class="page-subtitle">
+          Descrição do Filme: 
+            <input type="text" id="descricao" name="descricao" placeholder="Insira a sua descrição">
+          </p>
+          </p>
+          <p class="page-subtitle">
+          Link do Trailer no YouTube (apenas as letras finais do link): 
+            <input type="text" id="trailer" name="trailer" placeholder="Insira endereço de vídeo">
+          </p>
+          
+            <button onClick="adicionarFilme()">Adicionar Filme</button>
+            <button onClick="mostrarLista()">Mostrar Lista</button>
+        </div>
+    </div>
+    
+    <div id="listaFilmes">
+      <p class="page-subtitle" id="resultado"></p
+    </div>
+   
+        <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+</body>
+
+</html>

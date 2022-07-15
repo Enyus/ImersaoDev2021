@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <title>
+        Imersão Dev - Aula 02
+    </title>
+</head>
+
+<body>
+    
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-calculadora.svg" class="page-logo"
+            alt="">
+        <h1 class="page-title">
+            Calculadora Simples
+        </h1>
+        <h2>Tentemos fazer uma calculadora simples botão de calcular e checklist para operações.</h2>
+
+<!--> Colocar aqui os inputs do usuário </!-->
+  
+  <p class="valor">
+        <label> Primeiro Valor: </label>
+        <input class="value-field" type="number" step="0.01" min="0" placeholder="Insira aqui o primeiro valor" id="primeiroValor">
+      </p>
+  
+  <p class="valor">
+        <label> Segundo Valor: </label>
+        <input class="value-field" type="number" step="0.01" min="0" placeholder="Insira aqui o segundo valor" id="segundoValor">
+      </p>
+  
+  <p class="valor">
+    Agora defina a Operação Desejada:
+  </p>
+  
+   <p class="valor">
+        <label> Adição </label>
+        <input class="value-field" type="checkbox" id="adicao">
+      </p>
+   <p class="valor">
+        <label> Subtração </label>
+        <input class="value-field" type="checkbox" id="subtracao">
+      </p>
+   <p class="valor">
+        <label> Multiplicação </label>
+        <input class="value-field" type="checkbox" id="multiplicacao">
+      </p>
+   <p class="valor">
+        <label> Divisão </label>
+        <input class="value-field" type="checkbox" id="divisao">
+      </p>
+             
+           <p>
+           <button class="default-button" type="submit" onclick="calcular();">Calcular</button>
+        
+           <p class="valorcalculado" id="valor-final"> <p/>
+           </p>
+          
+      
+  
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+
+    
+  
+     
+
+ </body>
+
+</html>
